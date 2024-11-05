@@ -26,6 +26,8 @@ orgs.newOrg('eclipse-uomo') {
       default_branch: "master",
       delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
+      has_projects: false,
+      has_wiki: false,
       web_commit_signoff_required: false,
       workflows+: {
         enabled: false,
