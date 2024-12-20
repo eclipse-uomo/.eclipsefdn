@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-uomo') {
+orgs.newOrg('technology.uomo', 'eclipse-uomo') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
